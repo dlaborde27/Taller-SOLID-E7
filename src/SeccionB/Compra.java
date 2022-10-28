@@ -1,3 +1,4 @@
+package SeccionB;
 import java.util.List;
 
 public class Compra {

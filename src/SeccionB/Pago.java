@@ -1,3 +1,4 @@
+package SeccionB;
 
 public interface Pago{
 	

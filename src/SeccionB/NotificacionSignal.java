@@ -1,3 +1,4 @@
+package SeccionB;
 
 public class NotificacionSignal implements Notificable {
 	@Override
