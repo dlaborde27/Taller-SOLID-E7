@@ -1,10 +1,11 @@
 
 public class Factura {
-	// atributos aquí
+	//atributos aquí
 	public void calcularImpuestos() {
-		// calcula los impuestos asociados a la compra
+		//calcula los impuestos asociados a la compra
 	}
 	public void generarFactura() {
-		// generar una nueva factura
+		//generar una nueva factura
 	}
 }
+

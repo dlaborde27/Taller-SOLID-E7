@@ -1,7 +1,9 @@
 
-public class NotificacionSignal implements NotificacionGeneral{
+public class NotificacionSignal implements Notificable {
 	@Override
 	public void notificar(Pago pago) {
-		//notificar por Signal
+		// Notificar por Signal
+		
 	}
 }
+

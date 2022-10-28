@@ -1,19 +1,15 @@
 
-public class PagoPayPal implements Pago{
+public class PagoPayPal implements Payable{
 	private boolean loggedIn; //conexion a cuenta PayPal
-	private String user;
-	private String password;
 	
-	public PagoPayPal(String user, String password) {
-		//Hace el logIn de la cuenta
-	}
-	
-	@Override
 	public void realizarCobro(double monto) {
 		if(!loggedIn) {
-			
+			login();
 		}
-		// carga el monto de compra del medio de pago
+		//carga el monto de compra del medio de pago
 	}
-	
+	public void login(){
+		//solicita y valida el login de la cuenta
+	}
 }
+
