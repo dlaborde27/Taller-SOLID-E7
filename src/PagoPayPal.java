@@ -1,8 +1,10 @@
 
-public class PagoPayPal implements Payable{
+public class PagoPayPal implements Pago{
+	
 	private boolean loggedIn; //conexion a cuenta PayPal
 	
-	public void realizarCobro(double monto) {
+	@Override
+	public void realizarCobro(Factura factura) {
 		if(!loggedIn) {
 			login();
 		}

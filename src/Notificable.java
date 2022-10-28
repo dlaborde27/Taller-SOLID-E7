@@ -1,5 +1,5 @@
 
 public interface Notificable {
-	public void notificar(Pago pago);
+	public void notificar();
 }
 
